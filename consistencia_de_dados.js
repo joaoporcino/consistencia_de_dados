@@ -70,16 +70,16 @@ async function main() {
     const dadosBasicos = calcularParametrosBasicos(dadosPluviometricos, tipoDeDados, amcr)
 
     // Criar planilha com Dados Basicos
-    // await criarPlanilhaComDadosBasicos(dadosBasicos)
+    await criarPlanilhaComDadosBasicos(dadosBasicos)
 
     // Criar dados resumidos
     const {dadosMensais, dadosAnuais} = criarDadosResumidos(dadosBasicos, dataHidrologica)
 
     // Criar planilha de Dados Resumidos Mensais
-    // await criarPlanilhaResumoMensal(dadosMensais)
+    await criarPlanilhaResumoMensal(dadosMensais)
 
     // Criar planilha de Dados Resumidos Anuais
-    // await criarPlanilhaResumoAnual(dadosAnuais)
+    await criarPlanilhaResumoAnual(dadosAnuais)
 
     // Calcular parametros absolutos
     const dadosAbsolutos = calcularParametrosAbsolutos(dadosAnuais, dadosBasicos, amcr)
