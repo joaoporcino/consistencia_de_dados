@@ -9,7 +9,7 @@ Certifique-se de ter o Node.js instalado antes de começar.
 1. Clone este repositório:
 
     ```bash
-    git clone https://github.com/joaoPorcino/consistencia-de-dados.git
+    git clone https://github.com/joaoporcino/consistencia_de_dados.git
     ```
 
 2. Acesse o diretório do projeto:
