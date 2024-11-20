@@ -1,0 +1,11 @@
+# Ignorar arquivos temporários
+*.tmp
+
+# Ignorar arquivos compilados
+*.class
+
+# Ignorar a pasta de dependências do Node.js
+node_modules/
+
+# Igonrar a pasta de planilhas
+Planilhas/
